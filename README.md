@@ -1,3 +1,9 @@
+# Проект "News Explorer" (frontend) #
+
+Frontend для дипломного проекта "News Explorer".
+
+[Макет работы в Figma](https://www.figma.com/file/GBseer38BB588OcfN2HmsO/Diploma-WEB-v2.0-(for-students)?node-id=0%3A1).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,62 @@
+.not-found {
+  padding: 80px 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found__icon {
+  background: url(../../images/Error.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.not-found__title {
+  font-family: "RobotoSlab", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.15;
+  color: #1a1b22;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.not-found__subtitle {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.15;
+  color: #B6BCBF;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.not-found__button {
+  align-self: center;
+  color: #fff;
+  padding: 15px 40px;
+  background: #2f71e5;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.not-found__button:hover {
+  background: #347eff;
+}
+
+.not-found__button:focus {
+  background: #2a65cc;
+}
+
+@media screen and (max-width: 650px) {
+  .not-found {
+    padding: 20px;
+  }
+  .not-found__title {
+    font-size: 22px;
+  }
+}

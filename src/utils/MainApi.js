@@ -33,14 +33,14 @@ class Api {
 
   getUserInfo() {
     return fetch(`${this._baseUrl}/users/me`, {
-      eaders: this._headers,
+      headers: this._headers,
       credentials: "include",
     }).then(checkError);
   }
 
   getSavedArticles() {
     return fetch(`${this._baseUrl}/articles`, {
-      eaders: this._headers,
+      headers: this._headers,
       credentials: "include",
     }).then(checkError);
   }
